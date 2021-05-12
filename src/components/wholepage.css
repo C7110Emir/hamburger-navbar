@@ -7,6 +7,7 @@ body{
 }
 .image{
     height:7rem;
+    display:inline
 }
 .outerDiv{
     background-color: white;
@@ -14,6 +15,21 @@ body{
 .biggerversionouterdiv{
     float:right;
     display:flex;
-    justify-content:center;
-    width:50rem;
+    justify-content:space-evenly;
+    width:30rem;
+    height:7rem;    
+}
+
+a{
+    margin-top: 2rem;
+}
+
+a:hover{
+    transition: all 1s ease-in-out;
+    transform: scale(1.5)
+}
+
+.button{
+    float:right;
+    display:inline
 }

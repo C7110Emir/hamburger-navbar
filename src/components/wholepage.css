@@ -7,10 +7,13 @@ body{
 }
 .image{
     height:7rem;
-    display:inline
+    float:left;
+    
 }
 .outerDiv{
     background-color: white;
+    height:7rem;
+
 }
 .biggerversionouterdiv{
     float:right;
@@ -31,5 +34,12 @@ a:hover{
 
 .button{
     float:right;
-    display:inline
+    margin-top:2rem;
+    margin-right: 2rem;
+    
+}
+.button:hover{
+    cursor:pointer;
+    transition: all 1s ease-in-out;
+    transform: scale(1.5);
 }

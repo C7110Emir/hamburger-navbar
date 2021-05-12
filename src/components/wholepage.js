@@ -29,6 +29,9 @@ function Wholepage() {
                <a>Contact</a>
            </div>:<div className="smallerversionouterdiv">
                 <img src={dot} alt="button" onClick={handleClick} className="button"/>
+                {dropdown ? <div>
+                    
+                </div>:null}
                 
            </div>
             }

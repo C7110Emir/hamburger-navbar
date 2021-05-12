@@ -23,19 +23,26 @@ function Wholepage() {
             
            {700 <  windowwith ? 
            <div className="biggerversionouterdiv">
-               <a>Works</a>
-               <a>About</a>
-               <a>Career</a>
-               <a>Contact</a>
+               <a className="as">Works</a>
+               <a className="as">About</a>
+               <a className="as">Career</a>
+               <a className="as">Contact</a>
            </div>:<div className="smallerversionouterdiv">
                 <img src={dot} alt="button" onClick={handleClick} className="button"/>
-                {dropdown ? <div>
                     
-                </div>:null}
-                
-           </div>
+                </div>
             }
             </div>
+            
+
+            </div>
+            <div className="dropdownouterdiv">
+                {dropdown && windowwith < 700? <div className ="dropdowndiv">
+                <a className="ad">Works</a>
+                <a className="ad">About</a>
+                <a className="ad">Career</a>
+                <a className="ad">Contact</a> 
+                </div>:null}
         </div>
         </div>
         
